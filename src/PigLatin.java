@@ -15,8 +15,8 @@ public class PigLatin {
 			input = input.toLowerCase();
 
 //			String[] space = input.split(" ");
-//			for (int i = 0; i <= input.length(); i++) {
-//
+//			for (int i = 0; i < space.length; i++) {
+//				
 //			}
 
 			System.out.println(vowl(input).toLowerCase());
@@ -49,8 +49,4 @@ public class PigLatin {
 		return vowl;
 	}
 
-//	public static String space(String space) {
-//		
-//		return space;
-//	}
 }
